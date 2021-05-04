@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HGG</title>
+  <link rel="stylesheet" href="assets/style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="assets/animate.min.css">
+  <link rel="stylesheet" href="assets/morphist.css">
+  <script>
+      $("#zoomout").Morphist({
+          animateIn: 'fadeInUp',
+          animateOut: 'fadeOutUp',
+          speed: 8000,
+
+      });
+  </script>
+</head>
+<body>
+  <div class="video-wrapper">
+    <video aria-hidden="true" playsinline autoplay muted loop id><source src="assets/surveillance.webm" type="video/webm"></video>
+  </div>
+  <div class="search">
+      <div class="identity">
+        <p>IDENTITY UNKNOWN</p>
+      </div>
+      <div class="search-assets">
+          <p>SEARCHING ASSETS</p>
+      </div>
+      <div class="assets">
+        <ul id="zoomout">
+          <li>
+            <div class="rank">
+              ADMIN:
+            </div>
+            <div class="name">
+              ARAL, MUHAMMED EMRE
+            </div>
+          </li>
+          <li>
+            <div class="rank">
+              AUX_ADMIN:
+            </div>
+            <div class="name">
+              S****, T*** K****
+            </div>
+          </li>
+          <li>
+            <div class="rank">
+              PRIMARY ASSET:
+            </div>
+            <div class="name">
+              A*******, M****** S*****
+            </div>
+          </li>
+          <li>
+            <div class="rank">
+              PRIMARY ASSET:
+            </div>
+            <div class="name">
+              A*******, M****** S*****
+            </div>
+          </li>
+          <li>
+            <div class="rank">
+              PRIMARY ASSET:
+            </div>
+            <div class="name">
+              S*****, F*****
+            </div>
+          </li>
+        </ul>
+
+      </div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="assets/morphist.min.js"></script>
+  <script>
+      $("#zoomout").Morphist({
+          animateIn: 'fadeInUp',
+          animateOut: 'fadeOutUp'
+      });
+  </script>
+</body>
+</html>
